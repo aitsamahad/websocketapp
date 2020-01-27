@@ -1,0 +1,19 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    // FOR JSON
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+      }
+    ,
+// For TSLint
+    "editor.codeActionsOnSave": {
+    "source.fixAll.tslint": true
+    },
+// For Stylelint
+    "stylelint.autoFixOnSave": true,
+  }
